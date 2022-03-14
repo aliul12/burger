@@ -1,0 +1,787 @@
+/* google fonts */
+/* Monsterrat */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@300;400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* global css  */
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* header part  */
+header {
+    width: 100%;
+    float: left;
+    background: url(../img/bg.png) no-repeat;
+    background-size: cover;
+    color: white;
+}
+.main-header {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    padding: 10px 0px;
+}
+.logo-part {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.logo-part img {
+
+}
+.manu-part {
+    width: 50%;
+    float: left;
+}
+.delivery {
+    width: 100%;
+    float: left;
+    text-align: end;
+}
+.delivery img {
+    margin-right: 20px;
+}
+.delivery span {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+}
+.manu {
+    width: 100%;
+    float: left;
+}
+.manu ul {
+    text-align: end;
+}
+.manu li {
+    list-style: none;
+    display: inline-block;
+    margin: 25px;
+}
+.manu a {
+    text-decoration: none;
+    letter-spacing: 3px;
+    margin-left: 23px opx;
+    color: white;
+}
+/* hero part  */
+.hero {
+    width: 100%;
+    float: left;
+}
+.hero-writing-part {
+    width: 50%;
+    float: left;
+    padding-top: 100px;
+}
+.hero-writing-box {
+    font-size: 17px;
+    font-weight: 400;
+    border: 2px dashed;
+    display: inline-block;
+    padding: 7px 20px;
+    color: #333300;
+}
+.hero-heading {
+    font-size: 135px;
+    color: #3d2514;
+    text-shadow: 2px 2px white;
+}
+.hero-header {
+    font-size: 75px;
+    color: #3d2514;
+    text-shadow: 2px 2px white;
+}
+.hero-img-part {
+    width: 50%;
+    float: left;
+}
+.hero-img-part img {
+    position: relative;
+    right: 45px;
+}
+/* food item part */
+
+.fooditem-part {
+
+}
+.img-part1 {
+    width: 50%;
+    float: left;
+    padding-top: 99px;
+}
+.img-part1 img {
+
+}
+.img-part1:hover{
+    transform: scale(1.05);
+    transition: 0.8s;
+}
+.img-part2 {
+    width: 50%;
+    float: left;
+    padding-top: 100px;
+    position: relative;
+    right: -40px;
+}
+.img-row1:hover {
+    transform: scale(1.05);
+    transition: 0.8s;
+}
+.img-row:hover {
+    transform: scale(1.05);
+    transition: 0.8s;
+}
+
+.img-row {
+    width: 100%;
+    float: left;
+    padding-top: 28px;
+}
+.button {
+    text-align: center;
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+}
+.btn-dark {
+    background-color: #ffc045;
+    padding: 11px 44px;
+    font-size: 31px;
+}
+.fooditem-writing-part {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 36px;
+}
+.enjoy-part {
+    font-size: 40px;
+    color: #3d2514;
+}
+.weriting-pera {
+    padding: 24px;
+    font-size: 20px;
+    color: #3d2514;
+}
+/* order section  */
+.box-part {
+    width: 100%;
+    float: left;
+    padding: 90px 0px;
+}
+.box-one {
+    width: 33%;
+    float: left;
+}
+.Rol :hover {
+    transform: scale(1.05);
+    transition: 0.8s;
+}
+.box-writing-para1 {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.box-writing-para1 h3 {
+    text-align: center;
+    color: #3d2514;
+    font-size: 31px;
+}
+.box-writing-para1 p {
+    font-size: 20px;
+    color: #3d2514;
+}
+.but-dark {
+    background-color: red;
+    padding: 5px 33px;
+    font-size: 31px;
+}
+.box-two {
+    width: 33%;
+    float: left;
+    position: relative;
+    top: -36px;
+}
+.root :hover {
+    transform: scale(1.05);
+    transition: 0.8s;
+}
+.box-writing-para2 {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.box-writing-para2 h3 {
+    text-align: center;
+    color: #3d2514;
+    font-size: 31px;
+}
+.box-writing-para2 p {
+    font-size: 20px;
+    color: #3d2514;
+}
+.box-three {
+    width: 33%;
+    float: left;
+}
+.row5 :hover {
+    transform: scale(1.05);
+    transition: 0.8s;
+}
+.box-writing-para3 {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.box-writing-para3 h3 {
+    text-align: center;
+    color: #3d2514;
+    font-size: 31px;
+}
+.box-writing-para3 p {
+    font-size: 20px;
+    color: #3d2514;
+}
+/* feature section */
+#info {
+    width: 100%;
+    float: left;
+}
+.info-box-part {
+
+}
+.info-part {
+
+}
+.infowriting-part {
+    width: 50%;
+    float: left;
+}
+.infowriting-part h3 {
+    padding: 3px 0px;
+    font-size: 27px;
+    color: #333333;
+}
+.info-writing-part1 {
+    padding: 3px 0px;
+    font-size: 50px;
+    color: #3d2514;
+}
+.info-writing-part1 h1 {
+
+}
+.info-writing-pera {
+    padding: 31px 0px;
+}
+.info-writing-pera p {
+    font-family: 'Montserrat', sans-serif;
+    padding: 39px 0px;
+}
+.info-img-part {
+    width: 50%;
+    float: left;
+}
+.info-img-part img {
+    padding: 30px 2px;
+    height: 450px;
+}
+/* RESERVATION PART */
+.reservation-part {
+    width: 100%;
+    float: left;
+}
+.reser-img-part {
+    width: 33%;
+    float: left;
+}
+.reser-img-part img{
+    position: relative;
+    left: -67px;
+}
+.img-img {
+    position: relative;
+    left: 100px;
+    bottom: 74px;
+}
+
+.reser-writing-part {
+    width: 33.33%;
+    float: left;
+    padding: 110px 0px;
+    text-align: center;
+}
+.writ-pera {
+
+}
+.writ-pera h4 {
+    font-size: 35px;
+    color: #333300;
+}
+.writ-pera h1 {
+    color: #333300;
+    font-family: 'Alfa Slab One', cursive;
+    padding: 20px 0px;
+}
+.login-part {
+    padding: 42px 0px;
+}
+.login-part input {
+    width: 200px;
+    height: 40px;
+    padding: 2px 27px 0px 64px;
+    margin: 2px 0px 15px 1px;
+}
+.from-one {
+    padding: 20px 0px;
+}
+.from-two {
+    padding: 10px 0px;
+}
+.from-three {
+    padding: 20px 0px;
+}
+.login {
+    background-color: #cc3333;
+    color: #333300;
+}
+.img-part2 {
+    width: 33.33%;
+    float: left;
+}
+.img-part5 img {
+    position: relative;
+    top: 330px;
+    right: -160px;
+}
+footer {
+    width: 100%;
+    float: left;
+    background: url(../img/bg5.png) no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding-top: 60px;
+}
+.footer-part {
+    width: 100%;
+    float: left;
+}
+.image-part {
+    width: 50%;
+    float: left;
+}
+.foot-writing-part {
+    padding-top: 80px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+.icon-part {
+    width: 50%;
+    float: left;
+    list-style: none;
+    padding-top: 185px;
+    font-size: 25px;
+}
+.icon-1 {
+    color: white;
+}
+.icon-1 a {
+    color: white;
+}
+.icon-1 ul {
+    
+}
+.icon-1 li {
+    list-style: none;
+    display: inline;
+}
+.icon-2 {
+    color: white;
+}
+.icon-2 a {
+    color: white;
+}
+.icon-2 ul {
+    
+}
+.icon-2 li {
+    list-style: none;
+    display: inline;
+} 
+.foot-writing-part2 {
+    width: 50%;
+    float: left;
+    padding-top: 127px;
+}
+.foot-writing-part2 h6 {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.social-network {
+    width: 50%;
+    float: left;
+    padding-top: 110px;
+    text-align: end;
+}
+.social-network ul {
+
+}
+.social-network li {
+    list-style: none;
+    display: inline-block;
+}
+.social-network a {
+    color: white;
+}
+.link {
+    padding: 25px;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media  (max-width: 600px) {
+    .logo-part{
+    width: 100%;
+    text-align: center;
+    }
+    .delivery {
+        width: 100%;
+        text-align: center;
+    }
+    .manu-part {
+        width: 100%;
+        text-align: center;
+    }
+    .manu ul {
+        text-align: center;
+    }
+    .hero-writing-box {
+        width: 78%;
+        text-align: center;
+    }
+    .hero-heading {
+        font-size: 90px;
+    }
+    .hero-header {
+        font-size: 40px;
+    }
+    .hero-img-part img {
+        width: 330px;
+        height: 300px;
+    }
+    .img-part1 {
+        width: 100%;
+    }
+    .img-part1 img {
+        width: 550px;
+    }
+    .img-part2 {
+    
+    }
+    .img-row1 img {
+        width: 480px;
+    } 
+    .img-row img {
+        width: 480px;
+    }
+    .box-part {
+
+    }
+    .box-one {
+        width: 84%;
+        padding-left: 63px;
+    }
+    .box-two {
+        width: 84%;
+    padding-left: 63px;
+    }
+    .box-three {
+        width: 84%;
+    padding-left: 63px;
+    }
+    .root img {
+        padding: 72px 22px;
+    }
+    .infowriting-part {
+        width: 100%;
+        text-align: center;
+    }
+    .reservation-part {
+
+    }
+
+    .img-part5 img {
+        width: 20%;
+    position: relative;
+    right: -132px;
+    top: 189px;
+    }
+    .reser-writing-part {
+    }  
+    .text {
+        padding-top: 20px;
+    }
+    .img-img {
+        position: relative;
+    left: 20px;
+    }
+    footer {
+
+    }
+    .icon-1 li {
+        font-size: 19px;
+    }
+    .icon-2 li {
+        font-size: 23px;
+    }
+    .foot-writing-part2 {
+        padding: 50px 0px;
+    }
+    .foot-writing-part2 h6 {
+        font-size: 13px;
+    }
+    .social-network {
+        padding: 10px;
+    }
+    .link {
+        padding: 50px 18px;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media  (min-width: 601px) and(max-width:768px) {
+    .logo-part{
+        width: 100%;
+    padding: 300px;
+        text-align: center;
+        }
+        .delivery {
+            width: 80%;
+            float: left;
+            text-align: center;
+        }
+        .manu-part {
+            width: 100%;
+            text-align: center;
+        }
+        .manu ul {
+            text-align: center;
+        }
+        .hero-writing-box {
+            width: 78%;
+            text-align: center;
+        }
+        .hero-heading {
+            font-size: 90px;
+        }
+        .hero-header {
+            font-size: 40px;
+        }
+        .hero-img-part img {
+            width: 330px;
+            height: 300px;
+        }
+        .img-part1 {
+            width: 100%;
+        }
+        .img-part1 img {
+            width: 550px;
+        }
+        .img-part2 {
+        
+        }
+        .img-row1 img {
+            width: 480px;
+        } 
+        .img-row img {
+            width: 480px;
+        }
+        .box-part {
+    
+        }
+        .box-one {
+            width: 84%;
+            padding-left: 63px;
+        }
+        .box-two {
+            width: 84%;
+        padding-left: 63px;
+        }
+        .box-three {
+            width: 84%;
+        padding-left: 63px;
+        }
+        .root img {
+            padding: 72px 22px;
+        }
+        .infowriting-part {
+            width: 100%;
+            text-align: center;
+        }
+        .reservation-part {
+    
+        }
+    
+        .img-part5 img {
+            width: 20%;
+        position: relative;
+        right: -132px;
+        top: 189px;
+        }
+        .reser-writing-part {
+        }  
+        .text {
+            padding-top: 20px;
+        }
+        .img-img {
+            position: relative;
+        left: 20px;
+        }
+        footer {
+    
+        }
+        .icon-1 li {
+            font-size: 19px;
+        }
+        .icon-2 li {
+            font-size: 23px;
+        }
+        .foot-writing-part2 {
+            padding: 50px 0px;
+        }
+        .foot-writing-part2 h6 {
+            font-size: 13px;
+        }
+        .social-network {
+            padding: 10px;
+        }
+        .link {
+            padding: 50px 18px;
+        }
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media  (min-width: 769px) and (max-width:992px) {
+    .logo-part{
+        width: 100%;
+        text-align: center;
+        }
+        .delivery {
+            width: 100%;
+            text-align: center;
+        }
+        .manu-part {
+            width: 100%;
+            text-align: center;
+        }
+        .manu ul {
+            text-align: center;
+        }
+        .hero-writing-box {
+            width: 78%;
+            text-align: center;
+        }
+        .hero-heading {
+            font-size: 90px;
+        }
+        .hero-header {
+            font-size: 40px;
+        }
+        .hero-img-part img {
+            width: 330px;
+            height: 300px;
+        }
+        .img-part1 {
+            width: 100%;
+        }
+        .img-part1 img {
+            width: 550px;
+        }
+        .img-part2 {
+        
+        }
+        .img-row1 img {
+            width: 480px;
+        } 
+        .img-row img {
+            width: 480px;
+        }
+        .box-part {
+    
+        }
+        .box-one {
+            width: 84%;
+            padding-left: 63px;
+        }
+        .box-two {
+            width: 84%;
+        padding-left: 63px;
+        }
+        .box-three {
+            width: 84%;
+        padding-left: 63px;
+        }
+        .root img {
+            padding: 72px 22px;
+        }
+        .infowriting-part {
+            width: 100%;
+            text-align: center;
+        }
+        .reservation-part {
+    
+        }
+    
+        .img-part5 img {
+            width: 20%;
+        position: relative;
+        right: -132px;
+        top: 189px;
+        }
+        .reser-writing-part {
+        }  
+        .text {
+            padding-top: 20px;
+        }
+        .img-img {
+            position: relative;
+        left: 20px;
+        }
+        footer {
+    
+        }
+        .icon-1 li {
+            font-size: 19px;
+        }
+        .icon-2 li {
+            font-size: 23px;
+        }
+        .foot-writing-part2 {
+            padding: 50px 0px;
+        }
+        .foot-writing-part2 h6 {
+            font-size: 13px;
+        }
+        .social-network {
+            padding: 10px;
+        }
+        .link {
+            padding: 50px 18px;
+        }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media  (min-width:993px) and(max-width:1200px)  {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {} */ */ */
